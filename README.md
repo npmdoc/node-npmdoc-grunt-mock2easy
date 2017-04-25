@@ -1,4 +1,7 @@
-# api documentation for  [grunt-mock2easy (v0.4.3)](https://github.com/appLhui/grunt-mock2easy)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-mock2easy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-mock2easy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-mock2easy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-mock2easy)
+# npmdoc-grunt-mock2easy
+
+#### basic api documentation for  [grunt-mock2easy (v0.4.3)](https://github.com/appLhui/grunt-mock2easy)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-mock2easy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-mock2easy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-mock2easy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-mock2easy)
+
 #### 通过nodejs的服务实现ajax的跨域访问，利用mockjs动态生成json接口，模拟各种恶略环境测试系统是否健全，测试接口生成接口文档
 
 [![NPM](https://nodei.co/npm/grunt-mock2easy.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-mock2easy)
@@ -79,7 +82,8 @@
         "build": "browserify -t brfs ./tasks/web/app/app.js -o ./tasks/web/public/bundle.js",
         "test": "grunt test"
     },
-    "version": "0.4.3"
+    "version": "0.4.3",
+    "bin": {}
 }
 ```
 
